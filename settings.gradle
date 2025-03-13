@@ -1,0 +1,13 @@
+pluginManagement {
+	repositories {
+		maven {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}
+include(":water-in-nether-module-1-14")
+include(":water-in-nether-module-1-16")
+include(":water-in-nether-module-1-19")
