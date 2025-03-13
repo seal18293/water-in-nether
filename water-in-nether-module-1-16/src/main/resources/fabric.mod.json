@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "water-in-nether-module-1-16",
+    "version": "${version}",
+    "license": "GPL-2.0-only",
+    "environment": "*",
+    "mixins": [
+        "water-in-nether-module-1-16.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.10",
+        "minecraft": ">=1.16",
+        "java": ">=8"
+    },
+    "breaks": {
+        "minecraft": ">=1.19"
+    },
+    "custom": {
+        "modmenu": {
+            "parent": {
+                "id": "water-in-nether"
+            },
+            "badges": [
+                "library"
+            ]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "id": "water-in-nether",
+    "version": "${version}",
+    "name": "Water In Nether",
+    "description": "Makes water usable in the nether",
+    "authors": [
+        "Seal1"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/water-in-nether",
+        "sources": "https://github.com/seal18293/water-in-nether"
+    },
+    "license": "GPL-2.0-only",
+    "icon": "assets/water-in-nether/icon.png",
+    "environment": "*",
+    "depends": {
+        "fabricloader": ">=0.16.10",
+        "minecraft": ">=1.14.4",
+        "java": ">=8"
+    }
+}

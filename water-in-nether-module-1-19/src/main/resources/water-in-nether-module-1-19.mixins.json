@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "water_in_nether_module_1_19.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"BucketItemMixin",
+		"IceBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
