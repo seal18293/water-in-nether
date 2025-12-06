@@ -9,7 +9,8 @@
     ],
     "contact": {
         "homepage": "https://modrinth.com/mod/water-in-nether",
-        "sources": "https://github.com/seal18293/water-in-nether"
+        "sources": "https://github.com/seal18293/water-in-nether",
+        "issues": "https://github.com/seal18293/water-in-nether/issues"
     },
     "license": "LGPL-3.0-only",
     "icon": "assets/water-in-nether/icon.png",
