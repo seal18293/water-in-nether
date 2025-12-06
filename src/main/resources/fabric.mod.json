@@ -11,7 +11,7 @@
         "homepage": "https://modrinth.com/mod/water-in-nether",
         "sources": "https://github.com/seal18293/water-in-nether"
     },
-    "license": "GPL-2.0-only",
+    "license": "LGPL-3.0-only",
     "icon": "assets/water-in-nether/icon.png",
     "environment": "*",
     "depends": {

@@ -11,3 +11,4 @@ pluginManagement {
 include(":water-in-nether-module-1-14")
 include(":water-in-nether-module-1-16")
 include(":water-in-nether-module-1-19")
+include(":water-in-nether-module-1-21-5")

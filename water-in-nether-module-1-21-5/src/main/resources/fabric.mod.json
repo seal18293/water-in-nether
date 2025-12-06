@@ -1,19 +1,16 @@
 {
     "schemaVersion": 1,
-    "id": "water-in-nether-module-1-14",
+    "id": "water-in-nether-module-1-21-5",
     "version": "${version}",
     "license": "LGPL-3.0-only",
     "environment": "*",
     "mixins": [
-        "water-in-nether-module-1-14.mixins.json"
+        "water-in-nether-module-1-21-5.mixins.json"
     ],
     "depends": {
         "fabricloader": ">=0.16.10",
-        "minecraft": ">=1.14.4",
-        "java": ">=8"
-    },
-    "breaks": {
-        "minecraft": ">=1.16"
+        "minecraft": ">=1.21.5",
+        "java": ">=21"
     },
     "custom": {
         "modmenu": {
