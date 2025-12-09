@@ -1,0 +1,9 @@
+{
+    "required": true,
+    "package": "water_in_nether.mixin",
+    "plugin": "water_in_nether.MixinConfigPlugin",
+    "mixins": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

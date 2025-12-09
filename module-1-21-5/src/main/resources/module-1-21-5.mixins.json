@@ -1,0 +1,10 @@
+{
+	"required": true,
+	"package": "water_in_nether.mixin",
+	"mixins": [
+		"BucketItemMixin_1_21_5"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

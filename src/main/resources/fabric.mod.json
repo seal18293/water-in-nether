@@ -15,6 +15,9 @@
     "license": "LGPL-3.0-only",
     "icon": "assets/water-in-nether/icon.png",
     "environment": "*",
+    "mixins": [
+        "water_in_nether.mixins.json"
+    ],
     "depends": {
         "fabricloader": ">=0.16.10",
         "minecraft": ">=1.14.4",
