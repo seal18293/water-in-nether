@@ -11,7 +11,6 @@ base {
 }
 
 dependencies {
-    // To change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
@@ -40,20 +39,20 @@ jar {
     from("LICENSE")
 }
 
-tasks.register('splice', Exec) {
-    group = "build"
-
-    dependsOn("remapJar")
-    dependsOn("build")
-    commandLine "splicer/bin/splicer"
-}
-
 subprojects {
     apply plugin: "net.fabricmc.fabric-loom-remap"
 
     tasks.named("remapJar") {
         destinationDirectory.set(file(rootProject.layout.buildDirectory.dir("libs")))
     }
+}
+
+tasks.register('splice', Exec) {
+    group = "build"
+
+    dependsOn("remapJar")
+    dependsOn("build")
+    commandLine "splicer/bin/splicer"
 }
 
 tasks.named("build") {
